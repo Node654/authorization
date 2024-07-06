@@ -1,0 +1,21 @@
+{
+    "name": "nodest/authorization_mini",
+    "autoload": {
+        "psr-4": {
+            "Auth\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nodest",
+            "email": "amtes927@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "larapack/dd": "^1.1"
+    },
+  "require": {
+    "ext-pdo": "*",
+    "ext-curl": "*"
+  }
+}
